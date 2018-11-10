@@ -1,0 +1,305 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Arvo';
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family:'Oswald';
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-family: 'Oswald';
+	font-weight: normal;
+	font-size: 16px;
+	text-align: justify;
+	margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+h4 {
+	font-family: 'Goudy Bookletter 1911';
+	font-size: 22px;
+}
+
+h5 {
+	font-family: 'Goudy Bookletter 1911';
+	font-size: 21px;
+}
+
+ul li {
+	font-size: 21px;
+	font-family: 'Goudy Bookletter 1911';
+	font-weight: normal;
+}
+.center { 
+	margin: 0 auto; 
+}
+
+.content{ 
+	margin: 0 auto; 
+	width: 80%; 
+}
+
+.content p{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Belleza';
+}
+
+.clear { 
+	clear: both; 
+}
+
+#header {
+	width: 100%;
+	background: url('../img/header-bg.png');
+	height: 80px;
+	position: fixed;
+	margin-top: 0px;
+}
+
+#nav { 
+	width: 490px; 
+	float: right; 
+	margin-top: 20px; 
+}
+
+#logo a { 
+	color: #fff; 
+	text-decoration: none; 
+	float: left; 
+	font-size: 20px; 
+	margin-top: 28px; 
+	color: #fff; 
+	font-family: 'tahoma', sans-serif;
+	font-weight: normal; 
+	vertical-align: center;
+}
+
+#logo a .img img {
+	margin-top: 9px;
+	vertical-align: center;
+}
+
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+
+#nav li{
+	margin-top: 9px;
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a { 
+	color: #fff; 
+	opacity:0.6; 
+	font-size: 16px; 
+	text-decoration: none; 
+	font-family: 'Oswald'; 
+}
+
+#nav li a.active { 
+	color: #fff; 
+	opacity:1; 
+	border-bottom: 2px solid #fff; 
+}
+#nav li a:hover { 
+	color: #fff; 
+	opacity:1; 
+}
+
+.quotes {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 21px;
+text-align: justify;
+margin: 12px auto;
+margin-top: 40px;
+}
+
+.author_name_white { 
+	font-family:'Wellfleet'; 
+	margin: 70px 0 0 75px; 
+	color: #fff; 
+	font-size: 20px; 
+} 
+
+.author_name_gray { 
+	font-family: 'Wellfleet'; 
+	margin: 70px 0 0 75px; 
+	color: #94a4a4; 
+	font-size: 20px; 
+} 
+
+.quotes_container { 
+	width: 85%; 
+	margin: 0 auto; 
+}
+
+#christmas_tree { 
+	background: url('../img/christmas-tree.png')no-repeat; 
+	width: 48px; 
+	height: 77px; 
+	margin: 0 auto; 
+	position: relative; 
+	bottom: -35px;
+}
+
+#divider { 
+	background: url('../img/divider.png')no-repeat; 
+	width: 300px; 
+	height: 35px; 
+	margin: 0px auto 27px auto;
+}
+
+#ribbon { 
+	background: url('../img/ribbon.png')no-repeat; 
+	width: 251px; 
+	height: 48px; 
+	margin: 0 auto; 
+	display: block; 
+	position: relative; 
+	top: -38px; 
+}
+
+#snowflakes1 { 
+	background: url('../img/snowflakes.png')no-repeat; 
+	width: 24px; 
+	height: 21px; 
+	margin: 0 auto; 
+	display: block; 
+	position: relative; 
+	bottom: -54px; 
+	left: -102px; 
+}
+
+#snowflakes2 { 
+	background: url('../img/snowflakes.png')no-repeat; 
+	width: 24px; 
+	height: 21px; 
+	margin: 0 auto; 
+	display: block; 
+	position: relative;
+	bottom: -33px; 
+	right: -100px; 
+}
+
+#slide1, #slide2{ 
+	width: 100%; 
+}
+
+#slide1{
+	background:url('../img/arif-wahid-266541-unsplash.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #fff;
+	color: #333333;
+	height: 3450px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0;
+}
+
+#slide3{
+	background: url(../img/daniel-josef-540635-unsplash.jpg) 50% 0 no-repeat fixed;
+	color: #333333;
+	height: 500px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+
+#slide4{
+	background-color: #fff;
+	color: #333333;
+	height: 5800px;
+	padding: 40px 0;
+}
+
+#slide5{
+	background: url(../img/jared-brashier-252015-unsplash.jpg) 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#slide6{
+	background-color: #fff;
+	color: #333333;
+	height: 900px;
+	padding: 40px 0;
+}
+
+#slide7{
+	background: url(../img/tianyi-ma-1066731-unsplash.jpg) 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#slide8{
+	background-color: #fff;
+	color: #333333;
+	height: 550px;
+	padding: 40px 0;
+}
+
+#copyright { 
+	color: #fff; 
+	font-family:'Wellfleet'; 
+	font-size: 14px; 
+	margin-top: 100px; 
+	text-align: center; 
+}
+
+#copyright a { 
+	text-decoration: none; 
+	color: #fff; 
+}
+
+td {
+	background-color: #DCDCDC;
+	height: 50px;
+}
+
+th {
+	background-color: #B0E0E6;
+	height: 50px;
+}
+
+caption {
+	font-weight: bold;
+	font-size: 18px;
+}

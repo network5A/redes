@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" src="https://img.icons8.com/nolan/50/000000/network.png" />
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+	<title>NetWorking</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Belleza" rel="stylesheet">
+</head>
+<body>
+	<!----- HEADER START---> 
+	<header id="header">
+		<div class="content">
+			<div id="logo"><a href="">MODELO OSI Y TCP/IP<!--<div class="img"><img src="https://img.icons8.com/linen/50/000000/network-care.png"></div>-->&nbsp;&nbsp;</a></div>
+			<nav id="nav">
+ 				<ul>
+ 					<li><a href="#slide1" class="active" title="Next Section" >Inicio</a></li>
+ 					<li><a href="#slide2" title="Next Section">Modelo OSI</a></li>
+ 					<li><a href="#slide3" title="Next Section">PROTOCOLO TCP/IP</a></li>
+ 					<li><a href="#slide5" title="Next Section">IP</a></li>
+ 					<li><a href="#slide7" title="Next Section">ENCAPSULAMIENTO</a></li>
+ 				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!----- SLIDES START ---> 
+ 	<div id="slide1">
+ 		<div class="content">
+ 			<br><br><br><br><br><br>
+			<h2>MODELO DE INTERCONEXION OSI</h2>
+ 			<div id="divider"></div>
+ 		</div> 
+ 	</div> 
+
+ 	<div id="slide2">
+ 		<div class="content" >
+ 			<div class="quotes_container">
+ 			<p class="titulo">Modelo&nbsp;<span>OSI</span></p>	
+ 			<h3 class="quotes">El modelo de referencia OSI es el modelo principal para las comunicaciones por red. El modelo de referencia OSI permite que los usuarios vean las funciones de red que se producen en cada capa. Más importante aún, el modelo de referencia OSI es un marco que se puede utilizar para comprender cómo viaja la información a través de una red. Además, puede usar el modelo de referencia OSI para visualizar cómo la información o los paquetes de datos viajan desde los programas de aplicación (por ej., hojas de cálculo, documentos, etc.), a través de un medio de red (por ej., cables, etc.), hasta otro programa de aplicación ubicado en otro computador de la red, aún cuando el transmisor y el receptor tengan distintos tipos de medios de red.<br><br>En el modelo de referencia OSI, hay siete capas numeradas, cada una de las cuales ilustra una función de red específica. Esta división de las funciones de networking se denomina división en capas. Si la red se divide en estas siete capas, se obtienen las siguientes ventajas: <br> </h3>
+ 			<ul>
+ 				<li>Divide la comunicación de red en partes más pequeñas y sencillas. </li>
+ 				<li>Normaliza los componentes de red para permitir el desarrollo y el soporte de los productos de diferentes fabricantes. </li>
+ 				<li>Permite a los distintos tipos de hardware y software de red comunicarse entre sí. </li>
+ 				<li>Impide que los cambios en una capa puedan afectar las demás capas, para que se puedan desarrollar con más rapidez. </li>
+ 				<li>Divide la comunicación de red en partes más pequeñas para simplificar el aprendizaje. </li>
+ 			</ul>
+ 			<h4>Las siete capas del modelo de referencia OSI.</h4>
+ 			<h3 class="quotes">El problema de trasladar información entre computadores se divide en siete problemas más pequeños y de tratamiento más simple en el modelo de referencia OSI. Cada uno de los siete problemas más pequeños está representado por su propia capa en el modelo. Las siete capas del modelo de referencia OSI son:<br><br>Capa 7: La capa de aplicación<br>Capa 6: La capa de presentación<br>Capa 5: La capa de sesión<br>Capa 4: La capa de transporte<br>Capa 3: La capa de red<br>Capa 2: La capa de enlace de datos<br>Capa 1: La capa física<br></h3>
+ 			<h4>Funciones de cada capa.</h4>
+ 			<h3 class="quotes">Cada capa individual del modelo OSI tiene un conjunto de funciones que debe realizar para que los paquetes de datos puedan viajar en la red desde el origen hasta el destino. A continuación, presentamos una breve descripción de cada capa del modelo de referencia OSI tal como aparece en la figura. </h3>
+ 			<h5>Niveles de aplicación, presentación y sesión.</h5>
+ 			<h3 class="quotes">Estos tres niveles se suelen explicar de manera conjunta, puesto que existen pocos ejemplos prácticos de protocolos de sesión y de presentación. Además, la arquitectura Internet delega todos los trabajos por encima de transporte a la aplicación. No obstante, en el modelo OSI están definidos como tres niveles diferentes e independientes, con atribuciones propias.<br><br>En el<b> nivel de aplicación</b> residen los programas. En este nivel podemos encontrar servidores, clientes que acceden a estos últimos, aplicaciones que trabajan según un modelo simétrico (peer-to-peer), etc. <br><br> El <b>nivel de presentación</b> se encarga de conseguir que las diferentes plataformas (sistemas operativos, procesadores, etc.) se puedan entender al conectarse por medio de una misma red. Dicho de otra manera, soluciona el problema de la hetereogeneidad definiendo una manera universal de codificar la información. Dicha codificación puede tener propiedades de eficiencia (por medio de la compresión, por ejemplo), propiedades de confidencialidad (por medio de la criptografía), etc. <br><br> El <b>nivel de sesión</b> es, en teoría, el encargado de gestionar las conexiones de larga duración, la recuperación de caídas de red de manera transparente y los protocolos de sincronía entre aplicaciones.<br></h3>
+ 			<h5>Nivel de transporte.</h5>
+ 			<h3 class="quotes">La capa de transporte intenta suministrar un servicio de transporte de datos que aísla las capas superiores de los detalles de implementación del transporte. Específicamente, temas como la confiabilidad del transporte entre dos hosts es responsabilidad de la capa de transporte. Al proporcionar un servicio de comunicaciones, la capa de transporte establece, mantiene y termina adecuadamente los circuitos virtuales. Al proporcionar un servicio confiable, se utilizan dispositivos de detección y recuperación de errores de transporte. Si desea recordar a la Capa 4 en la menor cantidad de palabras posible, piense en calidad de servicio y confiabilidad.</h3>
+ 			<h5>Nivel de red</h5>
+ 			<h3 class="quotes">El nivel de red es el que permite que pueda haber más de dos máquinas involucradas en las inerconexiones. Si sólo se tuviese el nivel de enlace, esto no sería posible. El nivel de enlace se ocupa de que los bits lleguen de una lado a otro, por lo tanto, sólo permite interconectar dos máquinas. Para poder interconectar más de dos máquinas, necesitamos identificarlas y conectarlas de alguna manera. Ésta es la tarea del nivel de red.</h3>
+ 			<h5>Nivel de enlace.</h5>
+ 			<h3 class="quotes">El nivel de enlace es el primero de la torre OSI que se basa en software, algoritmos y protocolos. Su misión principal es dar fiabilidad a la transmisión de las señales eléctricas o electromagnéticas que proporciona el nivel físico, lo que se puede conseguir si las cotas de error son inferiores al 1%. Se añaden bits adicionales a los que forman el mensaje para poder detectar errores de transmisión y pedir su retransmisión. Para ello, es preciso conferir una estructura a los bits: se agrupan en pequeños bloques denominados tramas, que contienen los bits de mensaje, los bits añadidos para detectar errores y diferentes campos de control, tales como el número de trama.<br><br>Además del control de errores, el nivel de enlace lleva a cabo otra tarea importante: el control de flujo. <br><br>El receptor debe procesar las tramas a medida que las recibe. En algunos casos, este proceso comporta un gasto de tiempo mínimo, teniendo en cuenta la velocidad de transmisión (por ejemplo, guardar los datos en disco); sin embargo, puede haber casos en que este proceso sea costoso. En esta situación, el receptor necesita un mecanismo que notifique al transmisor que debe detener momentáneamente la transmisión con el objetivo de disponer del tiempo necesario para llevar a cabo esta tarea.<br><br> El nivel de enlace no sólo sirve para controlar líneas punto a punto, sino también para controlar líneas compartidas por diferentes terminales (redes de área local).</h3>
+ 			<h5>nivel físico</h5>
+ 			<h3 class="quotes">El nivel físico se encarga de las tareas de transmisión física de las señales eléctricas (o electromagnéticas) entre los diferentes sistemas. Las limitaciones del nivel físico (equipos de transmisión y recepción, medios de transmisión, amplificadores, etc.) imponen otras al resto del sistema: por un lado, limitan la velocidad de transmisión (en bits por segundo) y, por otro, hacen aparecer una probabilidad de error, el porcentaje de bits erróneos que llegan a destino.<br><br>La primera limitación es casi insalvable partiendo de un medio de transmisión dado, puesto que los parámetros físicos de este último imponen un límite superior no superable por medio de una mejora tecnológica. Los medios de transmisión poseen una capacidad de transmisión acotada y la electrónica que utilizamos para llevar a cabo las transmisiones puede mejorar la velocidad de transmisión, pero no superar este límite. Esta limitación viene dada por el ancho de banda, o anchura del espectro eléctrico, que puede atravesar el medio de transmisión (doblar el ancho de banda significa que se puede doblar la velocidad de transmisión) y por la imposibilidad práctica de recibir la señal libre de cualquier interferencia.</h3>
+ 			</div> 
+ 		</div> 
+ 	</div> 
+
+ 	<div id="slide3">
+ 		<div class="content">
+ 			<br><br><br><br><br><br>
+			<h2>PROTOCOLO TCP/IP</h2>
+ 			<div id="divider"></div>
+ 		</div> 
+ 	</div>
+
+ 	<div id="slide4">
+ 		<div class="content">
+ 			<div class="quotes_container">
+ 				<h5>Protocolos.</h5>
+ 			<h3 class="quotes">Los protocolos son conjuntos de normas para formatos de mensaje y procedimientos que permiten a las máquinas y los programas de aplicación intercambiar información. Cada máquina implicada en la comunicación debe seguir estas normas para que el sistema principal de recepción pueda interpretar el mensaje. El conjunto de protocolos TCP/IP puede interpretarse en términos de capas (o niveles).</h3>
+ 			<h5>Protocolo TCP/IP.</h5>
+ 			<h3 class="quotes">El modelo OSI describe las comunicaciones de red ideales con una familia de protocolos. TCP/IP no se corresponde directamente con este modelo. TCP/IP combina varias capas OSI en una única capa, o no utiliza determinadas capas. La tabla siguiente muestra las capas de la implementación de Oracle Solaris de TCP/IP. La tabla enumera las capas desde la capa superior (aplicación) hasta la capa inferior (red física).</h3>
+ 			<br>
+ 			<center><table>
+ 				<caption>Tabla de protocolo TCP/IP</caption>
+ 				<tr>
+ 					<th>Ref. OSI Nº de capa.</th>
+ 					<th>Equivalente de capa OSI.</th>
+ 					<th>Capa TCP/IP.</th>
+ 					<th>Ejemplos de protocolos TCP/IP.</th>
+ 				</tr>
+
+ 				<tr>
+ 					<td>5,6,7</td>
+ 					<td>Aplicación, sesión, presentación.</td>
+ 					<td>Aplicación.</td>
+ 					<td>NFS, NIS, DNS, LDAP, telnet, ftp, rlogin, rsh, rcp, RIP, RDISC, SNMP y otros.</td>
+ 				</tr>
+
+ 				<tr>
+ 					<td>4</td>
+ 					<td>Transporte.</td>
+ 					<td>Transporte.</td>
+ 					<td>TCP, UDP, SCTP.</td>
+ 				</tr>
+
+ 				<tr>
+ 					<td>3</td>
+ 					<td>Red.</td>
+ 					<td>Internet.</td>
+ 					<td>IPv4, IPv6, ARP, ICMP.</td>
+ 				</tr>
+
+ 				<tr>
+ 					<td>2</td>
+ 					<td>Vínculo de datos.</td>
+ 					<td>Vínculo de datos.</td>
+ 					<td>PPP, IEEE 802.2.</td>
+ 				</tr>
+
+ 				<tr>
+ 					<td>1</td>
+ 					<td>Física.</td>
+ 					<td>Red física.</td>
+ 					<td>Ethernet (IEEE 802.3), Token Ring, RS-232, FDDI y otros.</td>
+ 				</tr>
+ 			</table></center>
+ 			<h3 class="quotes">La tabla muestra las capas de protocolo TCP/IP y los equivalentes del modelo OSI. También se muestran ejemplos de los protocolos disponibles en cada nivel de la pila del protocolo TCP/IP. Cada sistema que participa en una transacción de comunicación ejecuta una única implementación de la pila del protocolo.</h3>
+ 			<br>
+ 			<center><caption>Conjunto de protocolos TCP/IP.</caption></center>
+ 			<br><br>
+ 			<center><img src="img/32.jpg" align="center"/></center>
+ 			<br><br>
+ 			<h3 class="quotes">TCP/IP define cuidadosamente cómo se mueve la información desde el remitente hasta el destinatario. En primer lugar, los programas de aplicación envían mensajes o corrientes de datos a uno de los protocolos de la capa de transporte de Internet, UDP (User Datagram Protocol) o TCP (Transmission Control Protocolo). Estos protocolos reciben los datos de la aplicación, los dividen en partes más pequeñas llamadas paquetes, añaden una dirección de destino y, a continuación, pasan los paquetes a la siguiente capa de protocolo, la capa de red de Internet.<br><br>La capa de red de Internet pone el paquete en un datagrama de IP (Internet Protocol), pone la cabecera y la cola de datagrama, decide dónde enviar el datagrama (directamente a un destino o a una pasarela) y pasa el datagrama a la capa de interfaz de red.<br><br>La capa de interfaz de red acepta los datagramas IP y los transmite como tramas a través de un hardware de red específico, por ejemplo redes Ethernet o de Red en anillo.<br><br></h3>
+ 			<center><caption>Movimiento de la información desde la aplicación remitente hasta el sistema principal destinatario.</caption></center><br><br>
+ 			<center><img src="img/28.jpg"/></center>
+ 			<h3 class="quotes">Esta figura muestra el flujo de información de las capas de protocolo TCP/IP del remitente al host.</h3><br><br>
+ 			<h3 class="quotes">Las tramas recibidas por un sistema principal pasan a través de las capas de protocolo en sentido inverso. Cada capa quita la información de cabecera correspondiente, hasta que los datos regresan a la capa de aplicación.</h3>
+ 			<br><br>
+ 			<center><caption>Movimiento de la información desde el sistema principal hasta la aplicación</caption></center>
+ 			<br>
+ 			<center><img src="img/29.jpg"/></center>
+ 			<br>
+ 			<h3 class="quotes">Esta figura muestra el flujo de información de las capas de protocolo TCP/IP desde el sistema principal al remitente.</h3>
+ 			<br><br>
+ 			<h3 class="quotes">La capa de interfaz de red (en este caso, un adaptador Ethernet) recibe las tramas. La capa de interfaz de red quita la cabecera Ethernet y envía el datagrama hacia arriba hasta la capa de red. En la capa de red, Protocolo Internet quita la cabecera IP y envía el paquete hacia arriba hasta la capa de transporte. En la capa de transporte, TCP (en este caso) quita la cabecera TCP y envía los datos hacia arriba hasta la capa de aplicación.<br><br>Los sistemas principales de una red envían y reciben información simultáneamente. La siguiente figura representa de forma más precisa un sistema principal mientras se comunica.</h3>
+ 			<br><br>
+ 			<center><caption>Transmisiones y recepciones de datos de sistema principal.</caption></center>
+ 			<br>
+ 			<center><img src="img/33.jpg"/></center>
+ 			<br>
+ 			<h3 class="quotes">Esta figura muestra los datos que fluyen en ambas direcciones a través de las capas TCP/IP.</h3>
+ 			<h4>Protocolo IP</h4>
+ 			<h3 class="quotes">El protocolo IP y sus protocolos de enrutamiento asociados son posiblemente la parte más significativa del conjunto TCP/IP. El protocolo IP se encarga de:</h3>
+ 			<ul>
+ 				<li><b>Direcciones IP</b></li>
+ 				<li><b>Comunicaciones de host a host</b></li>
+ 				<li><b>Formato de paquetes</b></li>
+ 				<li><b>Fragmentación</b></li>
+ 			</ul>
+ 			<br>
+ 			<h4>Protocolo ARP</h4>
+ 			<h3 class="quotes">El protocolo de resolución de direcciones (ARP) se encuentra conceptualmente entre el vínculo de datos y las capas de Internet. ARP ayuda al protocolo IP a dirigir los datagramas al sistema receptor adecuado asignando direcciones Ethernet (de 48 bits de longitud) a direcciones IP conocidas (de 32 bits de longitud).</h3>
+ 			<br>
+ 			<h4>Protocolo ICMP</h4>
+ 			<h3 class="quotes">El protocolo de mensajes de control de Internet (ICMP) detecta y registra las condiciones de error de la red. ICMP registra:</h3>
+ 			<ul>
+ 				<li><b>Paquetes soltados:</b>&nbsp;Paquetes que llegan demasiado rápido para poder procesarse.</li>
+ 				<li><b>Fallo de conectividad:</b>&nbsp;No se puede alcanzar un sistema de destino.</li>
+ 				<li><b>Redirección:</b>&nbsp;Redirige un sistema de envío para utilizar otro enrutador.</li>
+ 			</ul>
+ 			<br>
+ 			<h4>Protocolo TCP</h4>
+ 			<h3 class="quotes">TCP permite a las aplicaciones comunicarse entre sí como si estuvieran conectadas físicamente. TCP envía los datos en un formato que se transmite carácter por carácter, en lugar de transmitirse por paquetes discretos. Esta transmisión consiste en lo siguiente:</h3>
+ 			<ul>
+ 				<li>Punto de partida, que abre la conexión.</li>
+ 				<li>Transmisión completa en orden de bytes.</li>
+ 				<li>Punto de fin, que cierra la conexión.</li>
+ 			</ul>
+ 			<h3 class="quotes">TCP conecta un encabezado a los datos transmitidos. Este encabezado contiene múltiples parámetros que ayudan a los procesos del sistema transmisor a conectarse a sus procesos correspondientes en el sistema receptor.<br><br>TCP confirma que un paquete ha alcanzado su destino estableciendo una conexión de punto a punto entre los hosts de envío y recepción. Por tanto, el protocolo TCP se considera un protocolo fiable orientado a la conexión.</h3>
+ 			<br>
+ 			<h4>Protocolo SCTP</h4>
+ 			<h3 class="quotes">SCTP es un protocolo de capa de transporte fiable orientado a la conexión que ofrece los mismos servicios a las aplicaciones que TCP. Además, SCTP admite conexiones entre sistema que tienen más de una dirección, o de host múltiple. La conexión SCTP entre el sistema transmisor y receptor se denomina asociación. Los datos de la asociación se organizan en bloques. Dado que el protocolo SCTP admite varios hosts, determinadas aplicaciones, en especial las que se utilizan en el sector de las telecomunicaciones, necesitan ejecutar SCTP en lugar de TCP.</h3>
+ 			<br>
+ 			<h4>Protocolo UDP</h4>
+ 			<h3 class="quotes">UDP proporciona un servicio de entrega de datagramas. UDP no verifica las conexiones entre los hosts transmisores y receptores. Dado que el protocolo UDP elimina los procesos de establecimiento y verificación de las conexiones, resulta ideal para las aplicaciones que envían pequeñas cantidades de datos.</h3>
+ 			<!--<img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4>-->
+ 			</div> 
+ 		</div> 
+ 	</div> 
+
+ 	<div id="slide5">
+ 		<div class="content">
+ 			<h2>INTERNET PROTOCOL (IP)</h2>
+ 			<div id="divider"></div>
+ 		</div> 
+ 	</div> 
+
+ 	<div id="slide6">
+ 		<div class="content">
+ 			<div class="quotes_container">
+ 				<h3 class="quotes">Internet Protocol (IP) versión 6 (IPv6 o IPng) es la siguiente generación de IP y se ha diseñado para ser un paso de desarrollo de IP versión 4 (IPv4).<br><br>Aunque IPv4 ha permitido el desarrollo de una Internet global, no es capaz de aportar mucho más en el futuro debido a dos factores fundamentales: espacio de direcciones limitado y complejidad de direccionamiento. Las direcciones IPv4 de 32 bits no proporcionan suficiente flexibilidad para el direccionamiento global de Internet. El despliegue de CIDR (Classless InterDomain Routing - Direccionamiento entre dominios sin clase) ha ampliado el tiempo de vida del direccionamiento de IPv4 en varios años, pero se continuará realizando el esfuerzo de gestionar mejor el direccionamiento. Incluso si el direccionamiento de IPv4 se pudiera escalar, finalmente Internet se quedaría sin números de red.<br><br>Internet Engineering Task Force (IETF) ha reconocido que IPv4 no será capaz de soportar el fenomenal crecimiento de Internet, de modo que se ha creado el grupo de trabajo de IPng de IETF. Entre las propuestas que se realizaron, se eligió Simple Internet Protocol Plus (SIPP) como paso revolucionario en el desarrollo de IP. Éste se redenominó como IPng y se finalizó la RFC1883 en diciembre de 1995.<br><br>IPv6 amplía el número máximo de direcciones de Internet para manejar la continuamente creciente población usuarios de Internet. Como cambio evolutivo respecto a IPv4, IPv6 tiene la ventaja de permitir la coexistencia de lo antiguo y lo nuevo en la misma red. Esta coexistencia permite una migración ordenada de IPv4 (direccionamiento de 32 bits) a IPv6 (direccionamiento de 128 bits) en una red operativa.<br><br>Esta visión general está destinada a proporcionar al lector una comprensión general del protocolo IPng. Para obtener información detallada, consulte las RFC 2460, 2373, 2465, 1886, 2461, 2462 y 2553.<r><br>La publicación Security proporciona información de seguridad sobre el conjunto de protocolos TCP/IP, incluido IPv6. Para obtener detalles sobre la Seguridad de IP, versiones 4 y 6, consulte Seguridad del Protocolo Internet.<br><br></h3>
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<div id="slide7">
+ 		<div class="content">
+ 			<h2>ENCAPSULAMIENTO</h2>
+ 			<div id="divider"></div>
+ 		</div> 
+ 	</div>
+
+ 	<div id="slide8">
+ 		<div class="content">
+ 			<div class="quotes_container">
+ 				<h3 class="quotes">En cualquier arquitectura de niveles (sea más o menos formal) en que exista una comunicación vertical dentro de cada máquina, los datos que se generan en el nivel superior (aplicación) atraviesan el resto de niveles para “salir” de la máquina por el nivel físico.<br><br>Cada uno de estos protocolos funciona con unas estructuras fundamentales que genéricamente se conocen como PDU (protocol data units). Sin embargo, en cada nivel se utilizan nombres diferentes para denominar lo que, de hecho, tiene funciones equivalentes. En el conjunto de protocolos Internet tenemos las siguientes PDU: </h3>
+ 				<ul>
+ 					<li>Las PDU Ethernet o PPP se denominan tramas.</li>
+ 					<li>Las PDU Ethernet o PPP se denominan tramas.</li>
+ 					<li>En el nivel de transporte, se habla de segmentos en TCP, y de datagramas en UDP. </li>
+ 					<li>En niveles superiores que utilizan UDP, por norma general se utiliza la palabra PDU (SNMP-PDU, por ejemplo). En el caso del TCP, el servicio que proporciona a las aplicaciones es el flujo de bytes sin estructura (byte stream). Por tanto, el concepto PDU deja de tener sentido en el nivel superior a TCP.</li>
+ 				</ul>
+ 				<br>
+ 				<h3 class="quotes">El resultado de los diferentes encapsulamientos en cada nivel es que, cuando el nivel superior decide transmitir cierta información, se provoca una cascada de PDU que va descendiendo hasta el nivel inferior, que finalmente es el que transmite físicamente los bits que resultan del mismo. </h3>
+ 			</div>
+ 		</div>
+ 	</div>
+ <!----- SLIDES END --->
+
+</body>
+</html>
