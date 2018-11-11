@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-	font-family:'Oswald' !important;
+	font-family:'Oswald' ;
 	font-weight: normal;
 	font-size: 40px;
 	text-align: center;
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Oswald'!important;
+	font-family: 'Oswald;
 	font-weight: normal;
 	font-size: 16px;
 	text-align: justify;
@@ -36,18 +36,18 @@ h3 {
 }
 
 h4 {
-	font-family: 'Goudy Bookletter 1911', serif !important;
+	font-family: 'Goudy Bookletter 1911', serif;
 	font-size: 22px;
 }
 
 h5 {
-	font-family: 'Goudy Bookletter 1911', serif !important;
+	font-family: 'Goudy Bookletter 1911', serif;
 	font-size: 21px;
 }
 
 ul li {
 	font-size: 21px;
-	font-family: 'Goudy Bookletter 1911', serif !important;
+	font-family: 'Goudy Bookletter 1911', serif;
 	font-weight: normal ;
 }
 .center { 
@@ -132,7 +132,7 @@ ul li {
 }
 
 .quotes {
-font-family: 'Goudy Bookletter 1911', serif !important;
+font-family: 'Goudy Bookletter 1911', serif;
 font-weight: normal;
 font-size: 21px;
 text-align: justify;
