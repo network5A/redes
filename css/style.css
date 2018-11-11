@@ -132,7 +132,7 @@ ul li {
 }
 
 .quotes {
-font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Goudy Bookletter 1911', serif !important;
 font-weight: normal;
 font-size: 21px;
 text-align: justify;
