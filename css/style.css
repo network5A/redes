@@ -90,7 +90,7 @@ ul li {
 	font-size: 20px; 
 	margin-top: 28px; 
 	color: #fff; 
-	font-family: 'Oswald', sans-serif !important;
+	font-family: 'Oswald', sans-serif;
 	font-weight: normal; 
 	vertical-align: center;
 }
@@ -118,7 +118,7 @@ ul li {
 	opacity:0.6; 
 	font-size: 16px; 
 	text-decoration: none; 
-	font-family: 'Oswald' !important; 
+	font-family: 'Oswald', sans-serif;
 }
 
 #nav li a.active { 
