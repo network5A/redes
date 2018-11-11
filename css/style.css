@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-	font-family:'Oswald';
+	font-family:'Oswald' !important;
 	font-weight: normal;
 	font-size: 40px;
 	text-align: center;
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Oswald';
+	font-family: 'Oswald'!important;
 	font-weight: normal;
 	font-size: 16px;
 	text-align: justify;
@@ -36,19 +36,19 @@ h3 {
 }
 
 h4 {
-	font-family: 'Goudy Bookletter 1911', serif;
+	font-family: 'Goudy Bookletter 1911', serif !important;
 	font-size: 22px;
 }
 
 h5 {
-	font-family: 'Goudy Bookletter 1911', serif;
+	font-family: 'Goudy Bookletter 1911', serif !important;
 	font-size: 21px;
 }
 
 ul li {
 	font-size: 21px;
-	font-family: 'Goudy Bookletter 1911', serif;
-	font-weight: normal;
+	font-family: 'Goudy Bookletter 1911', serif !important;
+	font-weight: normal ;
 }
 .center { 
 	margin: 0 auto; 
@@ -90,7 +90,7 @@ ul li {
 	font-size: 20px; 
 	margin-top: 28px; 
 	color: #fff; 
-	font-family: 'tahoma', sans-serif;
+	font-family: 'Oswald', sans-serif !important;
 	font-weight: normal; 
 	vertical-align: center;
 }
@@ -118,7 +118,7 @@ ul li {
 	opacity:0.6; 
 	font-size: 16px; 
 	text-decoration: none; 
-	font-family: 'Oswald'; 
+	font-family: 'Oswald' !important; 
 }
 
 #nav li a.active { 
